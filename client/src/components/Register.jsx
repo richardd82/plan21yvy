@@ -22,7 +22,11 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://plan21.org/yvy-agricultura-regenerativa/" target="_blank">
+      <Link
+        color="inherit"
+        href="https://plan21.org/yvy-agricultura-regenerativa/"
+        target="_blank"
+      >
         Fundación Plan21
       </Link>{" "}
       {new Date().getFullYear()}
@@ -38,47 +42,33 @@ export default function Register() {
     <ThemeProvider theme={theme}>
       <Grid container component="main" sx={{ height: "100vh" }}>
         <CssBaseline />
-        <Box 
-        sx={{
+        <Box
+          sx={{
             height: "50%",
-            width: "0%",                        
-          }}>
-            <Box
-            
-            sx={{                
-                textAlign: "center",
-                width: "500px",
-                fontSize: "3em",
-                mx: 25,
-                position: "relative",                
-                top: "70%",
-                color: "white"
-                
-              }}
-            >
-                Regístrate y comienza a disfrutar de los beneficios de <strong>YvY</strong>
-                
-            </Box>
-            
-          
-          
+            width: "0%",
+          }}
+        >
+          <Box
+            sx={{
+              textAlign: "center",
+              width: "500px",
+              fontSize: "3em",
+              mx: 25,
+              position: "relative",
+              top: "70%",
+              color: "white",
+            }}
+          >
+            Regístrate y comienza a disfrutar de los beneficios de{" "}
+            <strong>YvY</strong>
           </Box>
+        </Box>
         <Grid
           style={{ background: "linear-gradient(#CCCCCC, #65CA9B, #65CBCA)" }}
           item
           xs={false}
-          sm={4}
+          sm={false}
           md={6}
-          //   sx={{
-          // backgroundImage: "url(https://source.unsplash.com/random)",
-          // backgroundRepeat: "no-repeat",
-          // backgroundColor: (t) =>
-          //   t.palette.mode === "light"
-          //     ? t.palette.grey[50]
-          //     : t.palette.grey[900],
-          // backgroundSize: "cover",
-          // backgroundPosition: "center",
-          //   }}
         />
         <img
           component="img"
@@ -86,27 +76,32 @@ export default function Register() {
           width="212"
           src={logoYvY}
           style={{ transform: "scale(0.7)", position: "absolute" }}
-        //   sx={{
-        //     position: "absolute",
-
-        //     maxHeight: { xs: 300, md: 300 },
-        //     maxWidth: { xs: 212, md: 212 },
-        //   }}
           alt="YvY App."
         />
-        
-        <Grid item xs={12} sm={8} md={6} component={Paper} elevation={10}>
+
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={6}
+          lg={6}
+          component={Paper}
+          elevation={20}
+          border={0}
+        >
           <Box
+            component="form"
+            noValidate
             sx={{
-              my: 8,
-              mx: 25,
+              marginTop: "10%",
+              width: "100%",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              marginTop: "20%",
             }}
+            // border={2}
           >
-            <Box component="form" noValidate sx={{ mt: 1, margin: "55px" }}>
+            <Grid xs={12} sm={12} md={12} lg={8} xl={7}>
               <TextField
                 margin="normal"
                 required
@@ -125,6 +120,8 @@ export default function Register() {
                 id="lastName"
                 autoComplete="lastName"
               />
+            </Grid>
+            <Grid xs={12} sm={12} md={12} lg={8} xl={7}>
               <TextField
                 margin="normal"
                 required
@@ -142,6 +139,8 @@ export default function Register() {
                 id="country"
                 autoComplete="country"
               />
+            </Grid>
+            <Grid xs={12} sm={12} md={12} lg={8} xl={7}>
               <TextField
                 margin="normal"
                 required
@@ -159,6 +158,8 @@ export default function Register() {
                 id="password"
                 autoComplete="password"
               />
+            </Grid>
+            <Grid xs={12} sm={12} md={12} lg={8} xl={6}>
               <TextField
                 margin="normal"
                 required
@@ -169,33 +170,36 @@ export default function Register() {
                 autoComplete="confirmPassword"
                 sx={{ marginRight: "15px" }}
               />
-              <Divider />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Mantener la sesión"
-              />
-               <Divider />
-              <Button
-                type="submit"
-                variant="contained"
-                sx={{ mt: 3, mb: 2, backgroundColor: "#65CA93", "&:hover":{background: "#20b931"} }}
-              >
-                Crear cuenta
-              </Button>
-              <Grid container>
-                <Grid item xs>
-                  <Link href="#" variant="body2">
-                    ¿Olvidaste tu contraseña?
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link href="#" variant="body2">
-                    {"Si ya tienes cuenta, Inicia Sesión"}
-                  </Link>
-                </Grid>
+            </Grid>
+            <Divider />
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Mantener la sesión"
+            />
+            <Divider />
+            <Button
+              type="submit"
+              variant="contained"
+              sx={{
+                mt: 3,
+                mb: 2,
+                backgroundColor: "#65CA93",
+                "&:hover": { background: "#20b931" },
+              }}
+            >
+              Crear cuenta
+            </Button>
+            <Grid container>
+              <Grid item xs={12} sm={11.5} md={11} lg={11.5} xl={11.5}>
+                <Link href="#" variant="body2" sx={{ marginRight: "5%" }}>
+                  ¿Olvidaste tu contraseña?
+                </Link>
+                <Link href="#" variant="body2">
+                  Inicia Sesión
+                </Link>
               </Grid>
-              <Copyright sx={{ mt: 5 }} />
-            </Box>
+            </Grid>
+            <Copyright sx={{ mt: 5 }} />
           </Box>
         </Grid>
       </Grid>
