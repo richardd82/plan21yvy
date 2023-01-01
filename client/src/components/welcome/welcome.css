@@ -1,0 +1,121 @@
+@media only screen and (max-width: 499px){
+
+    .rolButton{
+        width: 40% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 255px !important;
+        margin-left: 19% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.5) !important;
+        margin: -40px !important;
+    }
+    .textGrid{
+        margin-top: 70% !important;
+    }
+
+}
+@media only screen and (max-width: 600px) and (min-width: 500px){
+
+    .rolButton{
+        width: 40% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 265px !important;
+        margin-left: 19% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.5) !important;
+        margin: -40px !important;
+    }
+    .textGrid{
+        margin-top: 40% !important;
+    }
+
+}
+
+@media only screen and (max-width: 899px) and (min-width: 601px) {
+
+    .rolButton{
+        width: 25% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 350px !important;
+        margin-left: 30% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.5) !important;
+        margin: -40px !important;
+    }
+    .textGrid{
+        margin-top: 17% !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 900px) {
+
+    .rolButton{
+        width: 18% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 350px !important;
+        margin-left: 30% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.5) !important;
+        margin: -40px !important;
+    }
+    .textGrid{
+        margin-top: 15% !important;
+    }
+}
+
+@media only screen and (max-width: 1365px) and (min-width: 1119px) {
+
+    .rolButton{
+        width: 15% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 350px !important;
+        margin-left: 37% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.5) !important;
+        margin: -40px !important;
+    }    
+    .textGrid{
+        margin-top: 11% !important;
+    }
+} 
+
+
+@media only screen and (max-width: 1399px) and (min-width: 1366px) {
+
+    .rolButton{
+        width: 13% !important;
+        font-size: 10px !important;
+    }
+    .rolText{
+        width: 350px !important;
+        margin-left: 37% !important;
+        font-size: 12px !important;
+    }
+    .logoYvY {
+        transform: scale(0.6) !important;
+        margin: -30px !important;
+    }
+    .textGrid{
+        margin-top: 12% !important;
+    }
+}

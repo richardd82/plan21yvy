@@ -1,0 +1,53 @@
+.logoYvY {
+    transform: scale(0.7);
+    position: absolute;
+}
+
+.registerText {
+    width: 25%;
+    margin-top: 20%;
+    color: white;
+    margin-left: 9%;
+    position: absolute;
+    font-size: 3em;
+}
+
+.formRegister {
+    margin-top: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* @media only screen and (max-width: 899px) and (min-width: 500px) {}
+
+@media only screen and (max-width: 1199px) and (min-width: 900px) {}
+
+@media only screen and (max-width: 1321px) and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1365px) and (min-width: 1321px) {} */
+
+@media only screen and (max-width: 1399px) and (min-width: 1366px) {
+    .logoYvY {
+        transform: scale(0.5);
+        margin: -45px;
+    }
+
+    .registerText {
+        width: 25%;
+        margin-left: 12%;
+        margin-top: 17%;
+        font-size: 2em;
+    }
+    .formRegister {
+        margin-top: 10%;        
+    }
+}
+
+@media only screen and (max-width: 1728px) and (min-width: 1400px)  {
+    .formRegister {
+        margin-top: 25%;    
+    }
+}
