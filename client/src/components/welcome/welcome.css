@@ -1,3 +1,7 @@
+.formChoose fieldset{
+    letter-spacing: 10.5px;
+}
+
 @media only screen and (max-width: 499px){
 
     .rolButton{

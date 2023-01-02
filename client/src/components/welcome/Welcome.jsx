@@ -4,21 +4,28 @@ import Grid from "@mui/material/Grid";
 import logoYvY from "../../assets/Logo-final-color-212x300.png";
 import Button from "@mui/material/Button";
 import "./welcome.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const Welcome = () => {
-  let user = "{user}";
+  const navigate = useNavigate();
 
+  const handleRol = (e) => {
+    console.log(e);
+    navigate("../welcome2", { state: { e } });
+  };
   return (
     <>
       <Grid container spacing={1}>
-        <img
-          className="logoYvYWelcome"
-          component="img"
-          height="300,"
-          width="212"
-          src={logoYvY}
-          alt="YvY App."
-        />
+        <Link to="/">
+          <img
+            className="logoYvYWelcome"
+            component="img"
+            height="300,"
+            width="212"
+            src={logoYvY}
+            alt="YvY App."
+          />
+        </Link>
       </Grid>
 
       <Grid
@@ -34,11 +41,11 @@ const Welcome = () => {
         alignContent="center"
         sx={{
           width: "100%",
-          marginTop: "5%"
+          marginTop: "5%",
         }}
       >
         <Box>
-          <h1>¡Hola {user}!</h1>
+          <h1>¡Hola "{"user"}"!</h1>
         </Box>
         <Box
           className="rolText"
@@ -56,6 +63,7 @@ const Welcome = () => {
 
         <Button
           className="rolButton"
+          onClick={(e) => handleRol("admin")}
           sx={{
             mt: 10,
             mb: 2,
@@ -74,6 +82,7 @@ const Welcome = () => {
         </Button>
         <Button
           className="rolButton"
+          onClick={(e) => handleRol("productor")}
           sx={{
             mt: 10,
             mb: 2,

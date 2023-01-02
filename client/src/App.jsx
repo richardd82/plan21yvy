@@ -2,6 +2,7 @@ import "./App.css";
 import Register from './components/register/Register';
 import Welcome from "./components/welcome/Welcome";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WelcomeChoose from "./components/welcome/WelcomeChoose";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Register />} />
           <Route path="/welcome" element={<Welcome />} />
+          <Route path="/welcome2" element={<WelcomeChoose />} />
         </Routes>
       </BrowserRouter>
     </div>
