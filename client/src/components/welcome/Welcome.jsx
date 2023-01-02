@@ -34,7 +34,7 @@ const Welcome = () => {
         alignContent="center"
         sx={{
           width: "100%",
-          marginTop: "15%"
+          marginTop: "5%"
         }}
       >
         <Box>
