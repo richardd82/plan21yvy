@@ -12,7 +12,7 @@ const Welcome = () => {
     <>
       <Grid container spacing={1}>
         <img
-          className="logoYvY"
+          className="logoYvYWelcome"
           component="img"
           height="300,"
           width="212"

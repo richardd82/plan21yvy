@@ -25,10 +25,40 @@
 
 @media only screen and (max-width: 1199px) and (min-width: 900px) {}
 
-@media only screen and (max-width: 1321px) and (min-width: 1200px) {}
 
 @media only screen and (max-width: 1365px) and (min-width: 1321px) {} */
+@media only screen and (max-width: 500px){
 
+    .logoYvY {
+        transform: scale(0.5);
+        margin: -58px;
+    }
+    .formRegister {
+        margin-top: 40%;        
+    }
+    .inputMargin{
+        margin-right: 0px !important;
+    }
+    .registerText{
+        display: none !important;
+        color: transparent !important;
+    }
+
+}
+@media only screen and (max-width: 806px) and (min-width: 501px){
+    .logoYvY {
+        transform: scale(0.5);
+        margin: -58px;
+    }
+    .formRegister {
+        margin-top: 20%;
+        margin-left: 2% !important;        
+    } 
+    .registerText{
+        display: none !important;
+        color: transparent !important;
+    }
+}
 @media only screen and (max-width: 1399px) and (min-width: 1366px) {
     .logoYvY {
         transform: scale(0.5);
