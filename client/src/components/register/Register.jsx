@@ -97,7 +97,7 @@ export default function Register() {
             noValidate
             // border={2}
           >
-            <Grid item xs={12} sm={12} md={12} lg={8} xl={7}>
+            <Grid item xs={12} sm={12} md={12} lg={12} xl={7}>
               <TextField
                 className="inputMargin"
                 margin="normal"
@@ -118,7 +118,7 @@ export default function Register() {
                 autoComplete="lastName"
               />
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={8} xl={7}>
+            <Grid item xs={12} sm={12} md={12} lg={12} xl={7}>
               <TextField
                 className="inputMargin"
                 margin="normal"
@@ -138,7 +138,7 @@ export default function Register() {
                 autoComplete="country"
               />
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={8} xl={7}>
+            <Grid item xs={12} sm={12} md={12} lg={12} xl={7}>
               <TextField
                 className="inputMargin"
                 margin="normal"
