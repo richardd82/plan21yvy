@@ -79,7 +79,7 @@ const WelcomeChoose = () => {
         alignContent="center"
         sx={{
           width: "100%",
-          marginTop: "5%",
+          marginTop: "10%",
         }}
       >
         <Box

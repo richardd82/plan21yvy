@@ -10,7 +10,7 @@
     }
     .rolText{
         width: 255px !important;
-        margin-left: 19% !important;
+        margin-left: 19% !important;        
         font-size: 12px !important;
     }
     .logoYvYWelcome {
@@ -21,7 +21,7 @@
         margin-top: 25% !important;
     }
     .btnChoose{
-        margin-top: -29% !important;
+        margin-top: -21% !important;
     }
     .thanksText{
         width: 86% !important;
@@ -45,15 +45,15 @@
         margin: -40px !important;
     }
     .textGrid{
-        margin-top: 40% !important;
+        margin-top: 20% !important;
     }
     .btnChoose{
-        margin-top: -29% !important;
+        margin-top: -22% !important;
     }
     .thanksText{
         width: 75% !important;
         margin: auto !important;
-        margin-top: 15% !important;
+        margin-top: -12% !important;
     }
 }
 
@@ -73,15 +73,15 @@
         margin: -40px !important;
     }
     .textGrid{
-        margin-top: 17% !important;
+        margin-top: 10% !important;
     }
     .btnChoose{
-        margin-top: -22% !important;
+        margin-top: -16% !important;
     }
     .thanksText{
-        width: 45% !important;
+        width: 55% !important;
         margin: auto !important;
-        margin-top: 10% !important;
+        margin-top: -12% !important;
     }
 }
 
@@ -101,15 +101,15 @@
         margin: -40px !important;
     }
     .textGrid{
-        margin-top: 15% !important;
+        margin-top: 10% !important;
     }
     .btnChoose{
-        margin-top: -22% !important;
+        margin-top: -16% !important;
     }
     .thanksText{
         width: 35% !important;
         margin: auto !important;
-        margin-top: 10% !important;
+        margin-top: -10% !important;
     }
 }
 
@@ -129,15 +129,15 @@
         margin: -40px !important;
     }    
     .textGrid{
-        margin-top: 11% !important;
+        margin-top: 5% !important;
     }
     .btnChoose{
-        margin-top: -22% !important;
+        margin-top: -16% !important;
     }
     .thanksText{
         width: 35% !important;
         margin: auto !important;
-        margin-top: 10% !important;
+        margin-top: -10% !important;
     }
 } 
 
@@ -158,14 +158,14 @@
         margin: -30px !important;
     }
     .textGrid{
-        margin-top: -5% !important;
+        margin-top: -2% !important;
     }
     .btnChoose{
-        margin-top: -22% !important;
+        margin-top: -16% !important;
     }
     .thanksText{
         width: 30% !important;
         margin: auto !important;
-        margin-top: 0% !important;
+        margin-top: -10% !important;
     }
 }
