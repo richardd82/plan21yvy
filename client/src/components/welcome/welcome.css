@@ -20,6 +20,13 @@
     .textGrid{
         margin-top: 25% !important;
     }
+    .btnChoose{
+        margin-top: -29% !important;
+    }
+    .thanksText{
+        width: 86% !important;
+        margin: auto !important;
+    }
 
 }
 @media only screen and (max-width: 600px) and (min-width: 500px){
@@ -40,7 +47,14 @@
     .textGrid{
         margin-top: 40% !important;
     }
-
+    .btnChoose{
+        margin-top: -29% !important;
+    }
+    .thanksText{
+        width: 75% !important;
+        margin: auto !important;
+        margin-top: 15% !important;
+    }
 }
 
 @media only screen and (max-width: 899px) and (min-width: 601px) {
@@ -61,9 +75,17 @@
     .textGrid{
         margin-top: 17% !important;
     }
+    .btnChoose{
+        margin-top: -22% !important;
+    }
+    .thanksText{
+        width: 45% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 900px) {
+@media only screen and (max-width: 1118px) and (min-width: 900px) {
 
     .rolButton{
         width: 18% !important;
@@ -80,6 +102,14 @@
     }
     .textGrid{
         margin-top: 15% !important;
+    }
+    .btnChoose{
+        margin-top: -22% !important;
+    }
+    .thanksText{
+        width: 35% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
     }
 }
 
@@ -101,6 +131,14 @@
     .textGrid{
         margin-top: 11% !important;
     }
+    .btnChoose{
+        margin-top: -22% !important;
+    }
+    .thanksText{
+        width: 35% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
 } 
 
 
@@ -121,5 +159,13 @@
     }
     .textGrid{
         margin-top: -5% !important;
+    }
+    .btnChoose{
+        margin-top: -22% !important;
+    }
+    .thanksText{
+        width: 30% !important;
+        margin: auto !important;
+        margin-top: 0% !important;
     }
 }

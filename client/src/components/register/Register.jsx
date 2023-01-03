@@ -42,7 +42,10 @@ const theme = createTheme();
 export default function Register() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
-    navigate("/welcome");
+    e.preventDefault();
+    const name = e.target[0].value;
+    console.log(e.target[0].value)
+    navigate("/welcome", {state:{name}});
   };
   return (
     <ThemeProvider theme={theme}>

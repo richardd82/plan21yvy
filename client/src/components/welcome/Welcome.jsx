@@ -4,14 +4,15 @@ import Grid from "@mui/material/Grid";
 import logoYvY from "../../assets/Logo-final-color-212x300.png";
 import Button from "@mui/material/Button";
 import "./welcome.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Welcome = () => {
   const navigate = useNavigate();
-
+  const location = useLocation();
+  const nameRegistered = location.state;
   const handleRol = (e) => {
-    console.log(e);
-    navigate("../welcome2", { state: { e } });
+    console.log(e, nameRegistered);
+    navigate("../welcome2", { state: { e, nameRegistered } });
   };
   return (
     <>
@@ -45,7 +46,7 @@ const Welcome = () => {
         }}
       >
         <Box>
-          <h1>¡Hola "{"user"}"!</h1>
+          <h1>¡Hola {nameRegistered.name}!</h1>
         </Box>
         <Box
           className="rolText"
