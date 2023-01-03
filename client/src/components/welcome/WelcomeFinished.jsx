@@ -60,7 +60,7 @@ const WelcomeFinished = () => {
             con novedades para la validación de su cuenta
           </h3>
           <img src={greetnTick} alt="Register Ok" height="100," width="112" />
-          <h3>Si usted no ha recibido el mail de confirmación, ingrese al siguiente <Link>link</Link> </h3>
+          <h3>Si usted no ha recibido el mail de confirmación, ingrese al siguiente <Link href="https://plan21.richardd82.dev/">link</Link> </h3>
         </Box>
       </Grid>
     </>
